@@ -1,0 +1,91 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.rogue {
+  color: #77a466;
+}
+
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/***** HEADER *****/
+header {
+  height: 110px;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size:14px;
+  color: #77a466;
+  font-weight: bold;
+  display: inline-block;
+  padding-left: 25px;
+}
+
+/***** INTRO *****/
+#intro h2 {
+  text-transform: uppercase;
+  color: #77a466;
+  font-size: 18px;
+}
+
+#intro p {
+  font-size: 16px;
+  line-height: 1.563;
+}
+
+
+/***** ADDITIONAL INFO *****/
+#additional-info h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+#additional-info p {
+  font-size: 16px;
+  line-height: 1.563;
+}
+
+#additional-info .third-width li {
+  color: #77a466;
+  line-height: 2;
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+/***** FOOTER *****/
+footer {
+  clear: both;
+  padding-top: 10px;
+}
+
+footer h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.fresh {
+  color: #77a466;
+}
